@@ -9,7 +9,7 @@ all: he2325u
 
 CC=gcc
 CXX=g++
-COBJS=./hidapi/linux/hid-libusb.o
+COBJS=./hidapi/linux/hid.o
 CPPOBJS=./he2325u.o
 OBJS=$(COBJS) $(CPPOBJS)
 CFLAGS+=-I./hidapi/hidapi -Wall -g -c `pkg-config libusb-1.0 --cflags`

@@ -13,6 +13,7 @@
 #include <cstdlib>
 #include <stdio.h>
 #include "timediff.h"
+#include <unistd.h>
 
 int main(int argc, char *argv[]) {
 
